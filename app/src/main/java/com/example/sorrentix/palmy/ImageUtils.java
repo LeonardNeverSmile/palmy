@@ -693,6 +693,7 @@ public class ImageUtils {
 
         return slopecount%180;
     }
+
     private static void saveImageToExternalStorage(Bitmap finalBitmap) {
         String root = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).toString();
         File myDir = new File(root + "/palmy_2");
